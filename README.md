@@ -37,7 +37,7 @@ Skrypt czyta `sklady_meczowe_prognoza_2027.xlsx` (arkusz `Szczegóły`) i zapisu
 ## Ograniczenia modelu
 
 - Brak backtestu na sezonach historycznych — nie wiadomo, jak dobrze model przewidywałby np. 2025/26.
-- Składy meczowe są założeniem; transfery, kontuzje i decyzje trenerskie w trakcie sezonu nie są modelowane.
+- Składy meczowe są założeniem; kontuzje i decyzje trenerskie w trakcie sezonu nie są modelowane.
 - Ratingi zawodników są stałe przez cały sezon (bez formy, regresji do średniej ani rotacji).
 - Parametry (`HTA`, szum toru, siła prioru `k`, μ pozycji, kara zmęczenia kevlaru) są dobrane ekspercko, nie estymowane z danych.
 - Juniorzy i rezerwowi bez historii mocno zależą od prioru pozycji — duża niepewność właśnie w tych slotach.
