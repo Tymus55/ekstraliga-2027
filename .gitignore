@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+wyniki_symulacji_2027.csv
+prognoza_2027.png
+riders/
+*.html
+*.js
+scrape_*.py
+rosters*
+roster_*
+stats_*
+missing_riders.json
+slug_cache.json
+promotion_avg_drop.csv
